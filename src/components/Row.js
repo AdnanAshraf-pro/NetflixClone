@@ -26,7 +26,6 @@ function Row(props) {
     },
   };
   const handleClick = (movie) => {
-    console.log(`movie`, movie);
     if (trailerUrl) {
       settrailerUrl("");
     } else {
@@ -35,7 +34,7 @@ function Row(props) {
         (error, response) => {
           if (response) {
             const urlParams = new URLSearchParams(new URL(response).search);
-            console.log(`urlParams`, urlParams);
+
             settrailerUrl(urlParams.get("v"));
           }
         }
