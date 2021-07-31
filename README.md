@@ -2,6 +2,10 @@
 demo link 
 https://itsmynetflix.herokuapp.com/
 
+
+![804951](https://user-images.githubusercontent.com/68275293/127731524-b806f5e8-f502-4630-a1b2-1397f972dea9.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
